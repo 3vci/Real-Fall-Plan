@@ -1,3 +1,2 @@
 # Real-Fall-Plan
-git clone https://github.com/3vci/Real-Fall-Plan.git
-cd Real-Fall-Plan
+python3 -m http.server 8000
