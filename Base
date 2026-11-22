@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#10131c">
+  <title>Game Hub</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: #10131c;
+      color: white;
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 24px;
+    }
+
+    .menu {
+      width: 100%;
+      max-width: 420px;
+      text-align: center;
+    }
+
+    .logo {
+      font-size: 48px;
+      margin-bottom: 12px;
+    }
+
+    h1 {
+      font-size: 36px;
+      margin: 0;
+      letter-spacing: 3px;
+    }
+
+    .subtitle {
+      color: #8993a8;
+      margin: 12px 0 40px;
+    }
+
+    .game-card {
+      background: #1c2332;
+      border: 1px solid #343e52;
+      border-radius: 16px;
+      padding: 28px 20px;
+      margin-bottom: 20px;
+    }
+
+    .game-card h2 {
+      margin-top: 0;
+    }
+
+    button {
+      width: 100%;
+      padding: 17px;
+      border: none;
+      border-radius: 10px;
+      background: #4385ff;
+      color: white;
+      font-size: 18px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    button:active {
+      opacity: 0.8;
+    }
+
+    .footer {
+      color: #68748a;
+      font-size: 12px;
+      margin-top: 35px;
+    }
+  </style>
+</head>
+
+<body>
+  <main class="menu">
+    <div class="logo">🎮</div>
+
+    <h1>GAME HUB</h1>
+    <p class="subtitle">YOUR PERSONAL GAME CENTER</p>
+
+    <section class="game-card">
+      <h2>Welcome!</h2>
+      <p>Your next adventure awaits.</p>
+      <button onclick="alert('Game coming soon!')">
+        PLAY GAME
+      </button>
+    </section>
+
+    <p class="footer">GAME HUB • VERSION 1.0</p>
+  </main>
+</body>
+</html>
